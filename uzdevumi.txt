@@ -23,6 +23,18 @@ c) Izmantojot nosacījumus (if..else) izdrukājiet konsolē biļetes cenu:
    - Skolēniem un studentiem (`isStudent` ir patiess)
    biļetes cena ir 5 EUR.
    - Visiem pārējiem biļetes cena ir 10 EUR.
+
+4.uzdevums
+a) Izveidojiet failu `people-array.js`.
+b) Izveidojiet masīva tipa mainīgo `people`,
+kurā ir saraksts ar personām.
+Katras personas dati tiek glabāti objektā ar trim
+īpašībām: `name`, `age` un 'isStudent'
+(attiecīgi: vārds, vecums un ir/nav students).
+Izveidojiet divas personas, no kurām viena ir, bet otra nav students.
+c) Ar `for` cikla palīdzību izvadiet katras personas vārdu konsolē
+sekojošā formātā: "Vārds: Anna".
+
 5.uzdevums
 a) Izveidojiet failu `ticket-price-function.js`.
 b) Šajā failā ir jāiekopē 3.uzdevuma risinājums un
