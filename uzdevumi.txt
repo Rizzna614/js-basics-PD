@@ -1,0 +1,59 @@
+1.uzdevums
+a) Izveidojiet failu `iterations.js`.
+b) Izveidojiet `for` ciklu, kas izvada konsolē veselos skaitļus
+no 21 līdz 30 (iekļaujot 30).
+c) Izveidojiet `while` ciklu,
+kas izvada konsolē veselos skaitļus no 30 līdz 21
+(neiekļaujot 30, bet iekļaujot 21)
+
+2. uzdevums
+Versionējiet (init, add, commit)
+"js-basics-PD" mapi ar Git un sūtiet (push) uz
+Github ar tādu pašu repozitorija nosaukumu.
+Aizsūtiet skolotājam saiti uz Github repozitoriju.
+Turpiniet versionēt pārbaudes darbu tā,
+lai katrs uzdevums (jeb fails) būtu savā komitā (commit).
+
+3.uzdevums
+a) Izveidojiet failu `ticket-price.js`.
+b) Izveidojiet mainīgo `visitorAge` ar vērtību `12` un
+mainīgo `isStudent` ar patiesu Boolean vērtību.
+c) Izmantojot nosacījumus (if..else) izdrukājiet konsolē biļetes cenu:
+   - Bērniem līdz 6 gadu vecumam (ieskaitot) ieeja ir bez maksas.
+   - Skolēniem un studentiem (`isStudent` ir patiess)
+   biļetes cena ir 5 EUR.
+   - Visiem pārējiem biļetes cena ir 10 EUR.
+5.uzdevums
+a) Izveidojiet failu `ticket-price-function.js`.
+b) Šajā failā ir jāiekopē 3.uzdevuma risinājums un
+tas jāpilnveido ar funkcijas palīdzību.
+Izveidojiet funkciju `printTicketPrice`,
+kura satur 3.uzd. if..else loģiku cenas izprintēšanai,
+bet atkarībā no diviem parametriem - `visitorAge` un `isStudent`.
+Izsauciet funkciju divas reizes ar sekojošiem
+argumentiem - 12, true un 35, false.
+Respektīvi, ir jāizprintē biļetes cena
+12 gadīgam studentam un 35 gadīgai personai, kura nav students.
+
+6.uzdevums
+Problēmas risinājums.
+Mazs interneta veikals uztur savu preču sarakstu.
+Katra prece tiek attēlota kā objekts ar četrām
+īpašībām: nosaukums, kategorija, cena un daudzums noliktavā.
+
+Izveidojiet failu `internet-store.js`.
+Izveidojiet tajā testa datus,
+lai jūsu izveidotā programma spētu veikt uzdevumu.
+Ir jāizveido saraksts,
+kurā ir vismaz 3 preces no vismaz 2 dažādām kategorijām
+(piemēram, "Elektronika",  "Apģērbi").
+
+Programmai jāsniedz atbildes uz diviem jautājumiem:
+1. Kuras preces pieder kategorijai "Elektronika"?
+Izdrukājiet konsolē visu preču nosaukumus,
+kuru kategorija ir "Elektronika".
+
+2. Kāda ir kopējā visu preču vērtība noliktavā?
+Aprēķiniet un izvadiet visu preču kopējo vērtību internetveikalā
+šādā formātā - "Kopējā summa: 5173 EUR",
+bet cena būs atkarīga no Jūsu testa datiem.
